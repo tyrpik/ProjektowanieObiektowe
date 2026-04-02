@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Nasi Dostawcy</h1>
+    <ul>
+        {% for s in suppliers %}
+            <li>Firma: {{ s.company }} (Tel: {{ s.phone }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

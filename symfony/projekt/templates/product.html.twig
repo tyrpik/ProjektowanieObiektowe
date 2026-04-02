@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Lista Produktów</h1>
+    <ul>
+        {% for p in products %}
+            <li>{{ p.name }} - Cena: {{ p.price }} PLN (Kategoria: {{ p.category }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

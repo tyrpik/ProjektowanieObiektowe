@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Nasi Pracownicy</h1>
+    <ul>
+        {% for e in employees %}
+            <li>{{ e.name }} - Stanowisko: {{ e.position }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
