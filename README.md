@@ -15,3 +15,20 @@
 link do zestawu1: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/pascal
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/pascal/pascal.mkv
+
+
+### Zadanie 2 Wzorce architektury
+Symfony (PHP)
+
+Należy stworzyć aplikację webową na bazie frameworka Symfony na
+obrazie kprzystalski/projobj-php:latest. Baza danych dowolna, sugeruję
+SQLite.
+
+3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z
+CRUD (JSON) https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/symfony/projekt/src/Controller/ProductController.php
+
+3.5 Należy stworzyć skrypty do testów endpointów via curl (JSON) 
+
+4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami  (JSON)
+
+4.5 Należy stworzyć widoki do wszystkich kontrolerów
