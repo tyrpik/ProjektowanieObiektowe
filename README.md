@@ -37,3 +37,21 @@ https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/symfony/projekt/src/C
 link do zadania2: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/symfony
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/symfony/symfony.mkv
+
+
+### Zadanie 3 Wzorce kreacyjne Spring Boot (Kotlin)
+Proszę stworzyć prosty serwis do autoryzacji, który zasymuluje autoryzację użytkownika za pomocą przesłanej nazwy użytkownika oraz hasła. Serwis powinien zostać wstrzyknięty do kontrolera (4.5).
+Aplikacja ma oczywiście zawierać jeden kontroler i powinna zostać napisana w języku Kotlin. Oparta powinna zostać na frameworku Spring Boot. Serwis do autoryzacji powinien być singletonem.
+
+3.0 Należy stworzyć jeden kontroler wraz z danymi wyświetlanymi z listy na endpoint’cie w formacie JSON - Kotlin + Spring Boot: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/spring-kotlin/demo/src/main/kotlin/com/project/authservice/controller/Controller.kt
+
+3.5 Należy stworzyć klasę do autoryzacji (mock) jako Singleton w formie eager: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/spring-kotlin/demo/src/main/kotlin/com/project/authservice/service/Serivce.kt
+
+4.0 Należy obsłużyć dane autoryzacji przekazywane przez użytkownika: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/spring-kotlin/demo/src/main/kotlin/com/project/authservice/controller/Controller.kt
+
+link dozadania3: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/spring-kotlin
+
+wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/spring-kotlin/spring-kotlin.mkv
+
+
+
