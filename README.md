@@ -12,7 +12,7 @@
 
 5.0 Skrypt w bashu do uruchamiania aplikacji w Pascalu via docker https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/pascal/zad_5_0
 
-link do zadania1: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/pascal
+link do zadania 1: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/pascal
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/pascal/pascal.mkv
 
@@ -34,7 +34,7 @@ https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/symfony/projekt/src/C
 
 4.5 Należy stworzyć widoki do wszystkich kontrolerów: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/symfony/projekt/templates
 
-link do zadania2: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/symfony
+link do zadania 2: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/symfony
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/symfony/symfony.mkv
 
@@ -49,9 +49,26 @@ Aplikacja ma oczywiście zawierać jeden kontroler i powinna zostać napisana w 
 
 4.0 Należy obsłużyć dane autoryzacji przekazywane przez użytkownika: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/spring-kotlin/demo/src/main/kotlin/com/project/authservice/controller/Controller.kt
 
-link dozadania3: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/spring-kotlin
+link do zadania 3: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/spring-kotlin
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/spring-kotlin/spring-kotlin.mkv
 
+### Zadanie 4 Wzorce strukturalne
 
+Echo (Go)
+Należy stworzyć aplikację w Go na frameworku echo. Aplikacja ma mieć jeden endpoint, minimum jedną funkcję proxy, która pobiera dane np. o pogodzie, giełdzie, etc. (do wyboru) z zewnętrznego API. Zapytania do endpointu można wysyłać w jako GET lub POST.
 
+3.0 Należy stworzyć aplikację we frameworki echo w j. Go, która będzie miała kontroler Pogody, która pozwala na pobieranie danych o pogodzie (lub akcjach giełdowych): https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/go/main.go
+
+3.5 Należy stworzyć model Pogoda (lub Giełda) wykorzystując gorm, a dane załadować z listy przy uruchomieniu: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/go/models.go
+https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/go/main.go
+
+4.0 Należy stworzyć klasę proxy, która pobierze dane z serwisu zewnętrznego podczas zapytania do naszego kontrolera: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/go/proxy.go
+
+4.5 Należy zapisać pobrane dane z zewnątrz do bazy danych: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/go/proxy.go
+
+5.0 Należy rozszerzyć endpoint na więcej niż jedną lokalizację (Pogoda), lub akcje (Giełda) zwracając JSONa: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/go/main.go
+
+link do zadania 4: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/go
+
+wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/go/go_pogoda.mkv
