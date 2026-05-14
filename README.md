@@ -89,4 +89,4 @@ React (JavaScript/Typescript)
 
 link do zadania 5: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/wzorce_behawioralne
 
-wideo: 
+wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/wzorce.mkv
