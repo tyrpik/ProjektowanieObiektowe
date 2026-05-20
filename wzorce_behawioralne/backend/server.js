@@ -27,3 +27,5 @@ app.post('/api/platnosci', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Serwer działa na http://localhost:${PORT}`);
 });
+
+// test husky
