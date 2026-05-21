@@ -72,3 +72,21 @@ https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/go/main.go
 link do zadania 4: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/go
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/go/go_pogoda.mkv
+
+### Zadanie 5 Wzorce behawioralne
+
+React (JavaScript/Typescript)
+
+3.0 W ramach projektu należy stworzyć komponenty Produkty oraz Płatności; komponent Produkty powinien pobierać listę produktów z aplikacji serwerowej, natomiast komponent Płatności powinien wysyłać dane płatności do aplikacji serwerowej: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/wzorce_behawioralne/frontend/src/components https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/backend/server.js
+
+3.5 Należy dodać komponent Koszyk wraz z osobnym widokiem; aplikacja powinna umożliwiać przechodzenie pomiędzy widokami przy użyciu routingu: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/frontend/src/components/Koszyk.jsx https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/backend/server.js
+
+4.0 Dane pomiędzy komponentami, takimi jak Produkty, Koszyk i Płatności, powinny być przekazywane z wykorzystaniem React hooks, np. useState, useEffect lub useContext: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/wzorce_behawioralne/frontend/src/context
+
+4.5 Należy przygotować konfigurację umożliwiającą uruchomienie aplikacji klienckiej oraz serwerowej w kontenerach Docker za pomocą docker-compose: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/docker-compose.yml https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/backend/Dockerfile https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/frontend/Dockerfile
+
+5.0 Należy wykorzystać bibliotekę axios do komunikacji z serwerem oraz skonfigurować obsługę CORS, aby frontend mógł poprawnie komunikować się z backendem: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/wzorce_behawioralne/frontend/src/components https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/backend/server.js
+
+link do zadania 5: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/wzorce_behawioralne
+
+wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/wzorce.mkv
