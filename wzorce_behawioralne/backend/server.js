@@ -28,7 +28,3 @@ app.listen(PORT, () => {
   console.log(`Serwer działa na http://localhost:${PORT}`);
 });
 
-// test husky
-const test = ;
-const x = ;
-
