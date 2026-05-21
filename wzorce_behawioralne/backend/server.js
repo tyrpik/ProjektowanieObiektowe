@@ -28,3 +28,4 @@ app.listen(PORT, () => {
   console.log(`Serwer działa na http://localhost:${PORT}`);
 });
 
+// teraz przejdzie test
