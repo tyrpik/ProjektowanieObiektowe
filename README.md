@@ -108,3 +108,21 @@ CodeQL https://codeql.github.com/: https://github.com/tyrpik/ProjektowanieObiekt
 link do zadania 6: https://github.com/tyrpik/ProjektowanieObiektowe
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/zapaszki.mkv
+
+# Zadanie 7 Vapor
+Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako
+silnik szablonów or Fluent jako ORM. Proszę stworzyć trzy modele oraz
+CRUD dla każdego z nich. Należy stworzyć model z minimum jedną
+relacją. CRUD powinien mieć odzwierciedlenie w szablonach.
+
+3.0 Należy stworzyć kontroler wraz z modele Produktów zgodny z CRUD w
+ORM Fluent:
+
+3.5 Należy stworzyć szablony w Leaf:
+
+4.0 Należy stworzyć drugi model oraz kontroler Kategorii wraz z
+relacją:
+
+link do zadania:
+
+wideo:
