@@ -90,3 +90,39 @@ React (JavaScript/Typescript)
 link do zadania 5: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/wzorce_behawioralne
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/wzorce.mkv
+
+# Zadanie 6 Zapaszki
+
+Należy sprawdzić kod projektów JS 3.0, 3.5, 4.0,  kotlin, go, js -
+4.5, 5.0.
+
+3.0 Należy skonfigurować husky + lint-staged uruchamianie lintowania
+przed commitem: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/package.json https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/.husky/pre-commit
+
+3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod
+aplikacji klienckiej): https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/sonar-project.properties https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/.github/workflows/sonar.yml
+
+4.0 Przeskanować oraz naprawić dowolny projekt open source narzędziem
+CodeQL https://codeql.github.com/: https://github.com/tyrpik/ProjektowanieObiektowe/security/code-scanning/tools/CodeQL/status/configurations/automatic/e47f101183176cc67dcfbb33fb45ba5a246d9d47426ae11b23ba6d3bc89d066d
+
+link do zadania 6: https://github.com/tyrpik/ProjektowanieObiektowe
+
+wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/zapaszki.mkv
+
+# Zadanie 7 Vapor
+Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako
+silnik szablonów or Fluent jako ORM. Proszę stworzyć trzy modele oraz
+CRUD dla każdego z nich. Należy stworzyć model z minimum jedną
+relacją. CRUD powinien mieć odzwierciedlenie w szablonach.
+
+3.0 Należy stworzyć kontroler wraz z modele Produktów zgodny z CRUD w
+ORM Fluent:
+
+3.5 Należy stworzyć szablony w Leaf:
+
+4.0 Należy stworzyć drugi model oraz kontroler Kategorii wraz z
+relacją:
+
+link do zadania:
+
+wideo:
