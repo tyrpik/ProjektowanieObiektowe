@@ -1,0 +1,76 @@
+name: CI - Build & Push Docker Image
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repozytorium
+        uses: actions/checkout@v4
+
+      - name: Zaloguj się do Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Zbuduj i wypchnij obraz Docker
+        uses: docker/build-push-action@v5
+        with:
+          context: ./Chmura
+          push: true
+          tags: tyrpik/shopping-list:latest
+
+      - name: Wyślij powiadomienie email (sukces)
+        if: success()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "Build zakończony sukcesem - ${{ github.repository }}"
+          to: maria.j.tyrpa@student.uj.edu.pl
+          from: ${{ secrets.MAIL_USERNAME }}
+          body: |
+            Cześć Maria!
+
+            Build aplikacji shopping-list zakończył się sukcesem 🎉
+
+            Repozytorium: ${{ github.repository }}
+            Gałąź: ${{ github.ref_name }}
+            Commit: ${{ github.sha }}
+            Autor: ${{ github.actor }}
+
+            Obraz Docker dostępny na: https://hub.docker.com/r/tyrpik/shopping-list
+
+      - name: Wyślij powiadomienie email (błąd)
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "Build FAILED - ${{ github.repository }}"
+          to: maria.j.tyrpa@student.uj.edu.pl
+          from: ${{ secrets.MAIL_USERNAME }}
+          body: |
+            Cześć Maria!
+
+            Build aplikacji shopping-list NIE powiódł się
+
+            Repozytorium: ${{ github.repository }}
+            Gałąź: ${{ github.ref_name }}
+            Commit: ${{ github.sha }}
+            Autor: ${{ github.actor }}
+
+            Sprawdź logi: https://github.com/${{ github.repository }}/actions

@@ -1,0 +1,7 @@
+services:
+  shopping-list:
+    build: .
+    container_name: shopping-list-app
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
