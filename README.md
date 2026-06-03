@@ -91,7 +91,7 @@ link do zadania 5: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/wz
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/wzorce_behawioralne/wzorce.mkv
 
-# Zadanie 6 Zapaszki
+### Zadanie 6 Zapaszki
 
 Należy sprawdzić kod projektów JS 3.0, 3.5, 4.0,  kotlin, go, js -
 4.5, 5.0.
@@ -109,7 +109,7 @@ link do zadania 6: https://github.com/tyrpik/ProjektowanieObiektowe
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/zapaszki.mkv
 
-# Zadanie 7 Vapor
+### Zadanie 7 Vapor
 Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako
 silnik szablonów or Fluent jako ORM. Proszę stworzyć trzy modele oraz
 CRUD dla każdego z nich. Należy stworzyć model z minimum jedną
@@ -121,3 +121,17 @@ ORM Fluent: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/vaporShop
 link do zadania: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/vaporShop
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/vaporShop/vapor.mkv
+
+### Zadanie 8 Selenium
+Wykorzystaj do tego zadania Selenium/Webdrivera (Kotlin, Python, Java,
+JS, Go, Scala) -> wybrałam Selenium i Python.
+
+3.0 Przetestuj formularz rejestracji użytkownika pod kątem walidacji
+pól obowiązkowych oraz zachowania aplikacji po wprowadzeniu
+niepoprawnego formatu adresu e-mail: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/selenium/form/index.html https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/selenium/tests/test_registration.py
+
+link do zadania: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/selenium
+
+wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/selenium/selenium.mkv
+
+
