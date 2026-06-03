@@ -134,4 +134,16 @@ link do zadania: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/sele
 
 wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/selenium/selenium.mkv
 
+### Zadanie 9 Chmura
 
+3.0 Należy stworzyć odpowiednie instancje po stronie chmury na
+dockerze: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/Chmura/Dockerfile http://github.com/tyrpik/ProjektowanieObiektowe/blob/main/Chmura/docker-compose.yml
+
+3.5 Stworzyć odpowiedni pipeline w Github Actions do budowania
+aplikacji: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/.github/workflows/ci.yml
+
+4.0 Dodać notyfikację mailową o zbudowaniu aplikacji: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/.github/workflows/ci.yml
+
+link do zadania: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/Chmura https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/.github/workflows/ci.yml 
+
+wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/Chmura/chmura1.mkv https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/Chmura/chmura2.mkv
