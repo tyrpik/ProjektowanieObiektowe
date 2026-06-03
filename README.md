@@ -116,13 +116,8 @@ CRUD dla każdego z nich. Należy stworzyć model z minimum jedną
 relacją. CRUD powinien mieć odzwierciedlenie w szablonach.
 
 3.0 Należy stworzyć kontroler wraz z modele Produktów zgodny z CRUD w
-ORM Fluent:
+ORM Fluent: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/vaporShop/Sources/App
 
-3.5 Należy stworzyć szablony w Leaf:
+link do zadania: https://github.com/tyrpik/ProjektowanieObiektowe/tree/main/vaporShop
 
-4.0 Należy stworzyć drugi model oraz kontroler Kategorii wraz z
-relacją:
-
-link do zadania:
-
-wideo:
+wideo: https://github.com/tyrpik/ProjektowanieObiektowe/blob/main/vaporShop/vapor.mkv
