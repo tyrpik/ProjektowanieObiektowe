@@ -64,7 +64,7 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: "Build FAILED - ${{ github.repository }}"
-          to: maria.j.tyrpa@student.uj.edu.pl
+          to: ${{ secrets.MAIL_TO }}
           from: ${{ secrets.MAIL_USERNAME }}
           body: |
             Cześć Maria!
